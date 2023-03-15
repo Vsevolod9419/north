@@ -1,7 +1,14 @@
-body {
-  background-color: #aa0d0d;
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
-h1 {
-  color: #3faa0d;
+.container {
+  max-width: 1208px;
+}
+
+a {
+  text-decoration: none;
+  color: #000;
 }/*# sourceMappingURL=style.css.map */
