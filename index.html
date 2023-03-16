@@ -5,28 +5,36 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" href="css/style.css" />
+    <link href="https://fonts.googleapis.com/css2?family=Rubik:wght@400;700&display=swap" rel="stylesheet">
     <title>Document</title>
   </head>
   <body>
     <header>
       <nav class="nav">
         <div class="container">
-          <div class="logo">
-            <a href="" class="logo__link">
-							<img src="images/header+/logo.svg" alt="logo">Северяночка</a>
-          </div>
-          <a href="" class="menu">
-						<span class="menu__burger"></span> Каталог
-					</a>
-					<input type="search">
-					<a href="" class="inter-menu"><img src="images/header+/hard.svg" alt="hard">Избранное</a>
-					<a href="" class="inter-menu"><img src="images/header+/orders.svg" alt="orders">Заказы</a>
-					<a href="" class="inter-menu"><img src="images/header+/shopping-cart.svg" alt="">Корзина</a>
-					<button><img src="images/header+/avatar-alexey.png" alt="ava">Алексей <img src="images/header+/reversal.svg" alt="reversal"> </button>
-        </div>
+          <div class="nav__menu">
+            <div class="logo">
+              <a href="" class="logo__link">
+                          <img class="logo__1" src="images/header+/logo.svg" alt="logo"></a>
+            </div>
+            <a href="" class="menu"> Каталог</a>
+                      <div class="search">
+                        <input type="search" placeholder="Найти товар" ><img class="search_lupa" src="images/header+/search.svg" alt=""></div>
+                      <a href="" class="inter-menu"><img src="images/header+/hard.svg" width="25" height="25" alt="hard"><p class="inter-menu__text">Избранное</p></a>
+                      <a href="" class="inter-menu"><img src="images/header+/orders.svg" width="25" height="25" alt="orders"><p class="inter-menu__text">Заказы</p></a>
+                      <a href="" class="inter-menu"><img src="images/header+/shopping-cart.svg" width="25" height="25" alt=""><p class="inter-menu__text">Корзина</p></a>
+                      <button class="avatar-alexey"><img src="images/header+/avatar-alexey.png" width="40" height="40" alt="ava">Алексей <img src="images/header+/reversal.svg" class="search_reversal" alt="reversal"> </button>
+                    </div>
+                  </div>
       </nav>
     </header>
-    <main></main>
+
+    <main>
+      <section class="intro">
+        <img src="../images/header+/product-card.png" alt="product-card">
+        <h1 class="intro__title" >Доставка бесплатно от 1000 рублей</h1>
+      </section>
+    </main>
     <footer></footer>
   </body>
 </html>
